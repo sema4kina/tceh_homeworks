@@ -142,4 +142,8 @@ if __name__ == '__main__':
     # See what this means:
     # http://stackoverflow.com/questions/419163/what-does-if-name-main-do
 
+<<<<<<< HEAD
     main()
+=======
+    main()
+>>>>>>> 7998c4082a52f0982d14f96b4f9f0d7ade21ca9d
