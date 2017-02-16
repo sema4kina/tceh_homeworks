@@ -7,9 +7,11 @@ def generator_of_date():
             yield d
         except ValueError:
             if d.month == 12:
-                d = d.replace(year = d.year + 1, month = 1)
+                d = d.replace(year = d.year + 1, month = 1, day = 1)
+                yield d   # Без этой строчки у меня пропускались все 1 января
             else:
-                d = d.replace(month = d.month + 1, day = 1)    
+                d = d.replace(month = d.month + 1, day = 1)
+                yield d   # А без этой строчки все первые числа месяца
 
 for i in generator_of_date():
     print(i)
