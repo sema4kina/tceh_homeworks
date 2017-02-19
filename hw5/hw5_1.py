@@ -2,7 +2,7 @@ import random, collections
 
 # How to make a list of str(odd) in the range from 0 to 100
 
-list_of_odds = [str(i) for i in range (100) if i % 2 != 0]
+list_of_odds = [str(i) for i in range(100) if i % 2 != 0]
 
 # How to make a list of the non-iterable objects of another list
 
@@ -13,10 +13,6 @@ new_list = [i for i in list_of_objects if isinstance(i, collections.Iterable)]
 
 lazy_string = 'The quick brown fox jumps over the lazy dog'
 # Превращаем строку в список элементов по разделителю
-<<<<<<< HEAD
-s = [(i.upper(), ''.join( [random.choice([j.upper(), j.lower()] ) for j in i]), len(i)) for i in lazy_string.split(' ')]  
-#Метод ''.join преобразует список в строку без разделителя (т.к. <<<<''>>>>.join)
-=======
-s = [(i.upper(), ''.join([random.choice([j.upper(), j.lower() ] ) for j in i]), len(i)) for i in lazy_string.split(' ')]  #Метод ''.join преобразует список в строку без разделителя (т.к. ''.join) 
-   
->>>>>>> 5c25dc15c7d2526c350c053cce8d411976c60ec3
+
+s = [(i.upper(), ''.join([random.choice([j.upper(), j.lower()]) for j in i]), len(i)) for i in lazy_string.split(' ')]
+# Метод ''.join преобразует список в строку без разделителя (т.к. <<<<''>>>>.join)
