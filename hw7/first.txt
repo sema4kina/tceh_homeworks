@@ -1,0 +1,18 @@
+{
+    "Access-Control-Allow-Credentials": "true",
+    "CF-Cache-Status": "HIT",
+    "CF-RAY": "3329b3939fbe4ecc-DME",
+    "Cache-Control": "public, max-age=14400",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Fri, 17 Feb 2017 13:49:14 GMT",
+    "Expires": "Fri, 17 Feb 2017 17:49:14 GMT",
+    "Last-Modified": "Thu, 19 Jan 2017 20:16:48 GMT",
+    "Server": "cloudflare-nginx",
+    "Set-Cookie": "__cfduid=df289a1a5df3e95c5c103ec3da4f89f841487339354; expires=Sat, 17-Feb-18 13:49:14 GMT; path=/; domain=.typicode.com; HttpOnly",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 vegur",
+    "X-Powered-By": "Express"
+}
