@@ -1,0 +1,11 @@
+Посты в блоге
+
+{% for post in posts %}
+    ID поста: {{post.id}}
+    Заголовочек: {{post.title}}
+    Содержание поста: {{post.content}}
+    Дата создания: {{post.data_created}}
+    ID автора: {{post.author_id}}
+    Тэги: {{post.tag}}
+
+{% endfor %}
